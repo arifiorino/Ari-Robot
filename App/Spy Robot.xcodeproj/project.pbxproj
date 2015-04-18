@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C670BB1ABF40CA00602E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C670BA1ABF40CA00602E8C /* main.m */; };
+		02C670BE1ABF40CA00602E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C670BD1ABF40CA00602E8C /* AppDelegate.m */; };
+		02C670C41ABF40CA00602E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C670C21ABF40CA00602E8C /* Main.storyboard */; };
+		02C670C61ABF40CA00602E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C670C51ABF40CA00602E8C /* Images.xcassets */; };
+		02C670C91ABF40CA00602E8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C670C71ABF40CA00602E8C /* LaunchScreen.xib */; };
+		02C670D51ABF40CA00602E8C /* Spy_RobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C670D41ABF40CA00602E8C /* Spy_RobotTests.m */; };
+		02E43B0A1AC5D02800B1AC76 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43AF01AC5D02800B1AC76 /* AppConfig.m */; };
+		02E43B0D1AC5D02800B1AC76 /* ChattyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43AF51AC5D02800B1AC76 /* ChattyViewController.m */; };
+		02E43B0E1AC5D02800B1AC76 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43AF71AC5D02800B1AC76 /* Connection.m */; };
+		02E43B0F1AC5D02800B1AC76 /* LocalRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43AFA1AC5D02800B1AC76 /* LocalRoom.m */; };
+		02E43B101AC5D02800B1AC76 /* RemoteRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43AFC1AC5D02800B1AC76 /* RemoteRoom.m */; };
+		02E43B111AC5D02800B1AC76 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43AFE1AC5D02800B1AC76 /* Room.m */; };
+		02E43B121AC5D02800B1AC76 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43B011AC5D02800B1AC76 /* Server.m */; };
+		02E43B131AC5D02800B1AC76 /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43B031AC5D02800B1AC76 /* ServerBrowser.m */; };
+		02E43B141AC5D02800B1AC76 /* UITextView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43B071AC5D02800B1AC76 /* UITextView+Utils.m */; };
+		02E43B151AC5D02800B1AC76 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43B091AC5D02800B1AC76 /* WelcomeViewController.m */; };
+		02E43B251AC5DFE500B1AC76 /* RobotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43B241AC5DFE500B1AC76 /* RobotViewController.m */; };
+		02E43B281AC5DFF600B1AC76 /* ControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E43B271AC5DFF600B1AC76 /* ControllerViewController.m */; };
+		3F79F49B1AC6D122004DF445 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F4971AC6D122004DF445 /* down.png */; };
+		3F79F49C1AC6D122004DF445 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F4981AC6D122004DF445 /* left.png */; };
+		3F79F49D1AC6D122004DF445 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F4991AC6D122004DF445 /* right.png */; };
+		3F79F49E1AC6D122004DF445 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79F49A1AC6D122004DF445 /* up.png */; };
+		3F79F4A01AC6F1A5004DF445 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F49F1AC6F1A5004DF445 /* AudioToolbox.framework */; };
+		3F79F4A21AC6F1B1004DF445 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F4A11AC6F1B1004DF445 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C670CF1ABF40CA00602E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C670AD1ABF40C900602E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C670B41ABF40CA00602E8C;
+			remoteInfo = "Spy Robot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C670B51ABF40CA00602E8C /* Spy Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spy Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C670B91ABF40CA00602E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C670BA1ABF40CA00602E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02C670BC1ABF40CA00602E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02C670BD1ABF40CA00602E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02C670C31ABF40CA00602E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C670C51ABF40CA00602E8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02C670C81ABF40CA00602E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		02C670CE1ABF40CA00602E8C /* Spy RobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spy RobotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C670D31ABF40CA00602E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C670D41ABF40CA00602E8C /* Spy_RobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spy_RobotTests.m; sourceTree = "<group>"; };
+		02E43AEF1AC5D02800B1AC76 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		02E43AF01AC5D02800B1AC76 /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		02E43AF41AC5D02800B1AC76 /* ChattyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChattyViewController.h; path = Classes/ChattyViewController.h; sourceTree = "<group>"; };
+		02E43AF51AC5D02800B1AC76 /* ChattyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChattyViewController.m; path = Classes/ChattyViewController.m; sourceTree = "<group>"; };
+		02E43AF61AC5D02800B1AC76 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		02E43AF71AC5D02800B1AC76 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		02E43AF81AC5D02800B1AC76 /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		02E43AF91AC5D02800B1AC76 /* LocalRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalRoom.h; sourceTree = "<group>"; };
+		02E43AFA1AC5D02800B1AC76 /* LocalRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalRoom.m; sourceTree = "<group>"; };
+		02E43AFB1AC5D02800B1AC76 /* RemoteRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteRoom.h; sourceTree = "<group>"; };
+		02E43AFC1AC5D02800B1AC76 /* RemoteRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteRoom.m; sourceTree = "<group>"; };
+		02E43AFD1AC5D02800B1AC76 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		02E43AFE1AC5D02800B1AC76 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		02E43AFF1AC5D02800B1AC76 /* RoomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDelegate.h; sourceTree = "<group>"; };
+		02E43B001AC5D02800B1AC76 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		02E43B011AC5D02800B1AC76 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		02E43B021AC5D02800B1AC76 /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
+		02E43B031AC5D02800B1AC76 /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
+		02E43B041AC5D02800B1AC76 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		02E43B051AC5D02800B1AC76 /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
+		02E43B061AC5D02800B1AC76 /* UITextView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Utils.h"; sourceTree = "<group>"; };
+		02E43B071AC5D02800B1AC76 /* UITextView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Utils.m"; sourceTree = "<group>"; };
+		02E43B081AC5D02800B1AC76 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = Classes/WelcomeViewController.h; sourceTree = "<group>"; };
+		02E43B091AC5D02800B1AC76 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = Classes/WelcomeViewController.m; sourceTree = "<group>"; };
+		02E43B231AC5DFE400B1AC76 /* RobotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobotViewController.h; path = ../RobotViewController.h; sourceTree = "<group>"; };
+		02E43B241AC5DFE500B1AC76 /* RobotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobotViewController.m; path = ../RobotViewController.m; sourceTree = "<group>"; };
+		02E43B261AC5DFF600B1AC76 /* ControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControllerViewController.h; path = ../ControllerViewController.h; sourceTree = "<group>"; };
+		02E43B271AC5DFF600B1AC76 /* ControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControllerViewController.m; path = ../ControllerViewController.m; sourceTree = "<group>"; };
+		3F79F4971AC6D122004DF445 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		3F79F4981AC6D122004DF445 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		3F79F4991AC6D122004DF445 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		3F79F49A1AC6D122004DF445 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		3F79F49F1AC6F1A5004DF445 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3F79F4A11AC6F1B1004DF445 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3F79F4AE1AC6F2C2004DF445 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C670B21ABF40CA00602E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F79F4A21AC6F1B1004DF445 /* CoreAudio.framework in Frameworks */,
+				3F79F4A01AC6F1A5004DF445 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C670CB1ABF40CA00602E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C670AC1ABF40C900602E8C = {
+			isa = PBXGroup;
+			children = (
+				3F79F4AE1AC6F2C2004DF445 /* AVFoundation.framework */,
+				3F79F4A11AC6F1B1004DF445 /* CoreAudio.framework */,
+				3F79F49F1AC6F1A5004DF445 /* AudioToolbox.framework */,
+				02C670B71ABF40CA00602E8C /* Spy Robot */,
+				02C670D11ABF40CA00602E8C /* Spy RobotTests */,
+				02C670B61ABF40CA00602E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C670B61ABF40CA00602E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C670B51ABF40CA00602E8C /* Spy Robot.app */,
+				02C670CE1ABF40CA00602E8C /* Spy RobotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C670B71ABF40CA00602E8C /* Spy Robot */ = {
+			isa = PBXGroup;
+			children = (
+				02E43AEE1AC5D02800B1AC76 /* Chat Classes */,
+				02C670C21ABF40CA00602E8C /* Main.storyboard */,
+				02C670BC1ABF40CA00602E8C /* AppDelegate.h */,
+				02C670BD1ABF40CA00602E8C /* AppDelegate.m */,
+				02E43B081AC5D02800B1AC76 /* WelcomeViewController.h */,
+				02E43B091AC5D02800B1AC76 /* WelcomeViewController.m */,
+				02E43AF41AC5D02800B1AC76 /* ChattyViewController.h */,
+				02E43AF51AC5D02800B1AC76 /* ChattyViewController.m */,
+				02E43B261AC5DFF600B1AC76 /* ControllerViewController.h */,
+				02E43B271AC5DFF600B1AC76 /* ControllerViewController.m */,
+				02E43B231AC5DFE400B1AC76 /* RobotViewController.h */,
+				02E43B241AC5DFE500B1AC76 /* RobotViewController.m */,
+				02C670C51ABF40CA00602E8C /* Images.xcassets */,
+				02C670C71ABF40CA00602E8C /* LaunchScreen.xib */,
+				02C670B81ABF40CA00602E8C /* Supporting Files */,
+			);
+			path = "Spy Robot";
+			sourceTree = "<group>";
+		};
+		02C670B81ABF40CA00602E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F4971AC6D122004DF445 /* down.png */,
+				3F79F4981AC6D122004DF445 /* left.png */,
+				3F79F4991AC6D122004DF445 /* right.png */,
+				3F79F49A1AC6D122004DF445 /* up.png */,
+				02C670B91ABF40CA00602E8C /* Info.plist */,
+				02C670BA1ABF40CA00602E8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02C670D11ABF40CA00602E8C /* Spy RobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				02C670D41ABF40CA00602E8C /* Spy_RobotTests.m */,
+				02C670D21ABF40CA00602E8C /* Supporting Files */,
+			);
+			path = "Spy RobotTests";
+			sourceTree = "<group>";
+		};
+		02C670D21ABF40CA00602E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C670D31ABF40CA00602E8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02E43AEE1AC5D02800B1AC76 /* Chat Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02E43AEF1AC5D02800B1AC76 /* AppConfig.h */,
+				02E43AF01AC5D02800B1AC76 /* AppConfig.m */,
+				02E43B191AC5D13C00B1AC76 /* Networking */,
+				02E43B181AC5D0BB00B1AC76 /* Business Logic */,
+				02E43B061AC5D02800B1AC76 /* UITextView+Utils.h */,
+				02E43B071AC5D02800B1AC76 /* UITextView+Utils.m */,
+			);
+			name = "Chat Classes";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		02E43B181AC5D0BB00B1AC76 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				02E43AF91AC5D02800B1AC76 /* LocalRoom.h */,
+				02E43AFA1AC5D02800B1AC76 /* LocalRoom.m */,
+				02E43AFB1AC5D02800B1AC76 /* RemoteRoom.h */,
+				02E43AFC1AC5D02800B1AC76 /* RemoteRoom.m */,
+				02E43AFD1AC5D02800B1AC76 /* Room.h */,
+				02E43AFE1AC5D02800B1AC76 /* Room.m */,
+				02E43AFF1AC5D02800B1AC76 /* RoomDelegate.h */,
+			);
+			name = "Business Logic";
+			sourceTree = "<group>";
+		};
+		02E43B191AC5D13C00B1AC76 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				02E43AF61AC5D02800B1AC76 /* Connection.h */,
+				02E43AF71AC5D02800B1AC76 /* Connection.m */,
+				02E43AF81AC5D02800B1AC76 /* ConnectionDelegate.h */,
+				02E43B001AC5D02800B1AC76 /* Server.h */,
+				02E43B011AC5D02800B1AC76 /* Server.m */,
+				02E43B021AC5D02800B1AC76 /* ServerBrowser.h */,
+				02E43B031AC5D02800B1AC76 /* ServerBrowser.m */,
+				02E43B041AC5D02800B1AC76 /* ServerBrowserDelegate.h */,
+				02E43B051AC5D02800B1AC76 /* ServerDelegate.h */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C670B41ABF40CA00602E8C /* Spy Robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C670D81ABF40CA00602E8C /* Build configuration list for PBXNativeTarget "Spy Robot" */;
+			buildPhases = (
+				02C670B11ABF40CA00602E8C /* Sources */,
+				02C670B21ABF40CA00602E8C /* Frameworks */,
+				02C670B31ABF40CA00602E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spy Robot";
+			productName = "Spy Robot";
+			productReference = 02C670B51ABF40CA00602E8C /* Spy Robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02C670CD1ABF40CA00602E8C /* Spy RobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C670DB1ABF40CA00602E8C /* Build configuration list for PBXNativeTarget "Spy RobotTests" */;
+			buildPhases = (
+				02C670CA1ABF40CA00602E8C /* Sources */,
+				02C670CB1ABF40CA00602E8C /* Frameworks */,
+				02C670CC1ABF40CA00602E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C670D01ABF40CA00602E8C /* PBXTargetDependency */,
+			);
+			name = "Spy RobotTests";
+			productName = "Spy RobotTests";
+			productReference = 02C670CE1ABF40CA00602E8C /* Spy RobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C670AD1ABF40C900602E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Azul Engineering";
+				TargetAttributes = {
+					02C670B41ABF40CA00602E8C = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2YGP292648;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
+					02C670CD1ABF40CA00602E8C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 02C670B41ABF40CA00602E8C;
+					};
+				};
+			};
+			buildConfigurationList = 02C670B01ABF40C900602E8C /* Build configuration list for PBXProject "Spy Robot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C670AC1ABF40C900602E8C;
+			productRefGroup = 02C670B61ABF40CA00602E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C670B41ABF40CA00602E8C /* Spy Robot */,
+				02C670CD1ABF40CA00602E8C /* Spy RobotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C670B31ABF40CA00602E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F79F49D1AC6D122004DF445 /* right.png in Resources */,
+				3F79F49C1AC6D122004DF445 /* left.png in Resources */,
+				02C670C41ABF40CA00602E8C /* Main.storyboard in Resources */,
+				3F79F49B1AC6D122004DF445 /* down.png in Resources */,
+				3F79F49E1AC6D122004DF445 /* up.png in Resources */,
+				02C670C91ABF40CA00602E8C /* LaunchScreen.xib in Resources */,
+				02C670C61ABF40CA00602E8C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C670CC1ABF40CA00602E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C670B11ABF40CA00602E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E43B111AC5D02800B1AC76 /* Room.m in Sources */,
+				02E43B0F1AC5D02800B1AC76 /* LocalRoom.m in Sources */,
+				02E43B0D1AC5D02800B1AC76 /* ChattyViewController.m in Sources */,
+				02E43B101AC5D02800B1AC76 /* RemoteRoom.m in Sources */,
+				02E43B251AC5DFE500B1AC76 /* RobotViewController.m in Sources */,
+				02E43B151AC5D02800B1AC76 /* WelcomeViewController.m in Sources */,
+				02E43B0A1AC5D02800B1AC76 /* AppConfig.m in Sources */,
+				02C670BE1ABF40CA00602E8C /* AppDelegate.m in Sources */,
+				02C670BB1ABF40CA00602E8C /* main.m in Sources */,
+				02E43B121AC5D02800B1AC76 /* Server.m in Sources */,
+				02E43B141AC5D02800B1AC76 /* UITextView+Utils.m in Sources */,
+				02E43B281AC5DFF600B1AC76 /* ControllerViewController.m in Sources */,
+				02E43B0E1AC5D02800B1AC76 /* Connection.m in Sources */,
+				02E43B131AC5D02800B1AC76 /* ServerBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C670CA1ABF40CA00602E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C670D51ABF40CA00602E8C /* Spy_RobotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C670D01ABF40CA00602E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C670B41ABF40CA00602E8C /* Spy Robot */;
+			targetProxy = 02C670CF1ABF40CA00602E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C670C21ABF40CA00602E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C670C31ABF40CA00602E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C670C71ABF40CA00602E8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C670C81ABF40CA00602E8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C670D61ABF40CA00602E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C670D71ABF40CA00602E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C670D91ABF40CA00602E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Spy Robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		02C670DA1ABF40CA00602E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Spy Robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		02C670DC1ABF40CA00602E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spy RobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spy Robot.app/Spy Robot";
+			};
+			name = Debug;
+		};
+		02C670DD1ABF40CA00602E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spy RobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spy Robot.app/Spy Robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C670B01ABF40C900602E8C /* Build configuration list for PBXProject "Spy Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C670D61ABF40CA00602E8C /* Debug */,
+				02C670D71ABF40CA00602E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C670D81ABF40CA00602E8C /* Build configuration list for PBXNativeTarget "Spy Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C670D91ABF40CA00602E8C /* Debug */,
+				02C670DA1ABF40CA00602E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C670DB1ABF40CA00602E8C /* Build configuration list for PBXNativeTarget "Spy RobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C670DC1ABF40CA00602E8C /* Debug */,
+				02C670DD1ABF40CA00602E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C670AD1ABF40C900602E8C /* Project object */;
+}
